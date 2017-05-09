@@ -1,6 +1,6 @@
 one:
     two:
-        three: foo
+        three: bar
 server:
     port: 8888
     
