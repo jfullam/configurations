@@ -1,3 +1,6 @@
+spring:
+  profiles: block
+
 configserver: true
 
 eureka:
