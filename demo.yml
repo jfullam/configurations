@@ -10,12 +10,6 @@ management:
   endpoints:
     web:
       expose:
-        include: *
-
-
-
-management:
-  security:
-    enabled: false
+        include: all
 
 message:  hello Jacksonville
