@@ -9,6 +9,7 @@ management:
       show-details: always
   endpoints:
     web:
-      include: "*"
+      exposure:
+        include: "*"
 
 message:  hello Atlanta
