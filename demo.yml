@@ -12,4 +12,9 @@ management:
       exposure:
         include: "*"
 
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
 message:  hello NYC
