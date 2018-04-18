@@ -12,4 +12,4 @@ management:
       exposure:
         include: "*"
 
-message:  hello Atlanta
+message:  hello NYC
