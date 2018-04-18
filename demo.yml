@@ -12,6 +12,10 @@ management:
       exposure:
         include: "*"
 
+security:
+  basic:
+    enabled: false
+
 spring:
   jpa:
     hibernate:
