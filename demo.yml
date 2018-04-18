@@ -1,5 +1,21 @@
+
+management:
+  info:
+    git:
+      mode: full
+      enabled: true
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      expose:
+        include: *
+
+
+
 management:
   security:
     enabled: false
-    
+
 message:  hello Jacksonville
