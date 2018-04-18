@@ -21,4 +21,9 @@ spring:
     hibernate:
       ddl-auto: update
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:  http://localhost:8761/erueka
+
 message:  hello NYC
