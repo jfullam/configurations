@@ -14,7 +14,7 @@ spring:
     hibernate:
       ddl-auto: update
 
-greetingLanguage: English / Spring Config dddd
+greetingLanguage: English / Spring Config ${CF_INSTANCE_INDEX}
 ---
 spring:
   profiles: dev
