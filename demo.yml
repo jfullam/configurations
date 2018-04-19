@@ -21,4 +21,4 @@ spring:
     hibernate:
       ddl-auto: update
 
-message:  hello NYC from ${CF_INSTANCE_INDEX}
+message:  hello NYC 
